@@ -1,0 +1,58 @@
+.gridTotal{
+    margin: 0 auto;
+    border: 8px solid rgba(238, 0, 0, 0.4);
+    border-radius: 10px;
+    height: 700px !important; 
+    width: 1410px !important;
+    margin-top: 80px;
+}
+  
+.imgBack {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(wp3961352.png) ;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    opacity: 0.6;
+  }
+
+  @media (max-width: 1480px) { 
+
+    .gridTotal{
+        width: 1210px !important;
+        margin-bottom: 20px;
+    }
+
+    @media (max-width: 1250px) { 
+        .gridTotal{
+            width: 900px !important;
+        }
+    }
+
+    @media (max-width: 950px) { 
+
+        .gridTotal{
+            width: 600px !important;
+        }
+    }
+
+    @media (max-width: 630px) { 
+        .gridTotal{
+            width: 400px !important;
+        }
+    }
+
+    @media (max-width: 400px) { 
+        .gridTotal{
+            width: 350px !important;
+        }
+    }
+
+}
+    
+    
+ 
