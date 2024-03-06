@@ -1,3 +1,53 @@
+# Descrição da Aplicação - Feed Pokedex
+A aplicação Feed Pokedex é uma plataforma que exibe informações detalhadas sobre diversos Pokémon, incluindo dados como nome, altura, peso, tipo, ataque, defesa e uma imagem representativa. A aplicação consome a API pública PokeAPI para obter informações atualizadas sobre os Pokémon. A aplicação está hospedada no link https://pokedexhugo.netlify.app/.
+
+## Características dos Pokémon Exibidos:
+- Imagem do Pokémon:
+  Exibição das imagens frontais padrão dos Pokémon.
+- Nome do Pokémon:
+Nome do Pokémon é apresentado como uma referência identificadora.
+- Altura:
+Mostra a altura do Pokémon em uma unidade específica (provavelmente metros).
+- Peso:
+Exibe o peso do Pokémon em quilogramas.
+- Tipo:
+Apresenta o tipo primário do Pokémon, onde a cor do texto varia de acordo com o tipo.
+- Ataque e Defesa:
+Classificação do ataque e defesa do Pokémon, respectivamente, apresentados em um sistema de rating.
+
+# Instruções de Execução e Instalação do Projeto:
+## Pré-requisitos
+
+Node.js, npm e React devem estar instalados localmente.
+
+## Instalação
+
+Clone o repositório.
+
+Navegue até o diretório do projeto.
+
+Execute `npm install` para instalar as dependências.
+
+## Execução
+
+Execute `npm start` para iniciar a aplicação em modo de desenvolvimento.
+
+Acesse a aplicação no navegador através do endereço http://localhost:3000.
+
+# Pacotes Utilizados
+- @progress/kendo-theme-material: Fornece estilos e temas para os componentes KendoReact.
+- @progress/kendo-data-query: Utilizado para filtrar dados na grade KendoReact.
+- @progress/kendo-react-grid: Componente de grade KendoReact para exibição de dados tabulares.
+- @progress/kendo-react-inputs: Componente de Rating KendoReact para exibir classificações em forma de estrelas.
+- axios: Biblioteca para fazer requisições HTTP.
+- Jest: Biblioteca para testes.
+
+# Execução de Testes
+
+Os testes são configurados usando a biblioteca Jest.
+
+Execute `npm test` para executar todos os testes disponíveis.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
