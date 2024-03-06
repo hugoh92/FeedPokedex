@@ -1,10 +1,12 @@
 # Descrição da Aplicação - Feed Pokedex
-A aplicação Feed Pokedex é uma plataforma que exibe informações detalhadas sobre diversos Pokémon, incluindo dados como nome, altura, peso, tipo, ataque, defesa e uma imagem representativa. A aplicação consome a API pública PokeAPI para obter informações atualizadas sobre os Pokémon. A aplicação está hospedada no link https://pokedexhugo.netlify.app/.
+A aplicação FeedPokedex é uma tela de feed feito com React + Kendo UI, utilizando o component Grid, que exibe informações detalhadas sobre diversos Pokémons, incluindo dados como nome, altura, peso, tipo, ataque, defesa e uma imagem representativa. A aplicação consome a API pública PokeAPI para obter informações atualizadas sobre os Pokémon e está hospedada no link https://pokedexhugo.netlify.app/.
 
-## Características dos Pokémon Exibidos:
-- Imagem do Pokémon:
+![](example.png)
+
+## Características dos Pokémon Exibidos
+- Imagem do Pokémon
   Exibição das imagens frontais padrão dos Pokémon.
-- Nome do Pokémon:
+- Nome do Pokémon
 Nome do Pokémon é apresentado como uma referência identificadora.
 - Altura:
 Mostra a altura do Pokémon em uma unidade específica (provavelmente metros).
@@ -15,7 +17,7 @@ Apresenta o tipo primário do Pokémon, onde a cor do texto varia de acordo com 
 - Ataque e Defesa:
 Classificação do ataque e defesa do Pokémon, respectivamente, apresentados em um sistema de rating.
 
-# Instruções de Execução e Instalação do Projeto:
+# Instruções de Execução e Instalação do Projeto
 ## Pré-requisitos
 
 Node.js, npm e React devem estar instalados localmente.
